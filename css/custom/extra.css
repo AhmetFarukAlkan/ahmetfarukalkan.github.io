@@ -1,36 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@100;300;400;700&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
-i{
-    margin-right: 10px;
-    font-size: 30px;
+
+/* navbar start */
+#mainNavbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
 }
 
-.draw-border{
+#mainNavbar .navbar-brand {
+    color: #ffffff;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.063em;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link {
+    font-family: "Montserrat",
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: 0.06em;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link.active,
+#mainNavbar .navbar-nav .nav-item .nav-link:hover {
+    color: #fffdfd;
+}
+
+#mainNavbar .navbar-nav .nav-item .nav-link {
+    color: #9a9696;
+}
+
+
+/* header start */
+/*header.backImage {*/
+/*    background-image: url("../../images/IMG_20220618_173115_auto_x2.jpg");*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: scroll;*/
+/*    background-position: center center;*/
+/*    background-size: cover;*/
+/*    height: 100vh;*/
+/*}*/
+
+
+/*header.backImage .backImage-heading {*/
+/*    padding-top: 70vh;*/
+/*    font-size: 3rem;*/
+/*    font-weight: 700;*/
+/*    line-height: 3rem;*/
+/*    margin-bottom: 2rem;*/
+/*    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+/*}*/
+
+header.background{
+    background-color: white;
+    height: 70vh;
+}
+
+.headerContainer{
+    padding: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.headerContainer .heading{
+    align-self: center;
+    border-radius: 100px;
+
+}
+
+.headerContainer .heading h3{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headPhoto img{
+    height: 50vh;
+    align-self: flex-end;
     border: 3px solid;
-    border-radius: 25px;
+    border-radius: 10000px;
 }
 
-.text-left{
-    text-align: left;
+.about{
+    background: #e9ecef;
+    height: 50vh;
+    padding: 5rem;
 }
 
-.my-image{
-    border: 2px solid;
-    max-width: 500px;
-    max-height: 500px;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    border-radius: 25px;
+
+.about .heading{
+    font-size: 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
-#page-body{
-    background-color: rgba(245, 245, 220, 0.59);
+.skills{
+    background: #ced4da;
+    height: 50vh;
+    padding: 5rem;
 }
 
-#card{
-    margin-top: 20px;
-    margin-bottom: 20px;
 
+.skills .heading{
+    font-size: 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.project{
+    background: #6c757d;
+    height: 50vh;
+    padding: 5rem;
+}
+
+.project .heading{
+    font-size: 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+footer{
+    background-color: #343a40;
 }
 
 
