@@ -304,7 +304,8 @@ header.background{
 
 .project{
     background: #6c757d;
-    padding-bottom: 5rem
+    padding-bottom: 5rem;
+    height: 80vh;
 }
 
 .project .heading{
