@@ -3,6 +3,17 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
 
+.animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.animate.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 /* Effect 4: fall perspective */
 .grid.effect-4 {
     perspective: 1300px;
@@ -135,7 +146,7 @@
 
 header.background{
     background-color: white;
-    height: 90vh;
+    height: 100vh;
 }
 
 .headerContainer{

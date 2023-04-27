@@ -28,4 +28,16 @@ for (let i = 0; i < BtnCanvas.length; i++) {
     });
 }
 
+window.addEventListener('scroll', animateScroll);
+function animateScroll() {
+    let animateElements = document.querySelectorAll('.animate');
+    for (let i = 0; i < animateElements.length; i++) {
+        let element = animateElements[i];
+        let position = element.getBoundingClientRect().top;
+        let windowHeight = window.innerHeight;
+        if (position < windowHeight) {
+            element.classList.add('active');
+        }
+    }
+}
 
