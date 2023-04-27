@@ -400,6 +400,8 @@ header.background{
     margin: 10px;
     overflow: hidden;
     background: #000;
+    border-radius: 10px;
+    border: 2px #454e56 solid;
 }
 
 .caption img {
@@ -442,7 +444,7 @@ header.background{
 .caption::before {
     content: '...' attr(data-description) '...';
     top: 50%;
-    background: #000000;
+    background: #252525;
     font-size: 14px;
     padding: 20px;
     -webkit-transform: translateY(100%);
