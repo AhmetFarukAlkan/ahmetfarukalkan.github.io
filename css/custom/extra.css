@@ -150,7 +150,7 @@ header.background{
 }
 
 .headerContainer{
-    padding: 20vh;
+    padding: 30vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -257,8 +257,18 @@ header.background{
     margin-bottom: 0;
 }
 
-@media(min-width:768px) {
+@media (max-width: 768px) {
+    .headPhoto img{
+        width: 250px;
+        height: auto;
+    }
+    .about .heading{
+        font-size: 1.5rem;
+        margin-right: 100px;
+    }
+}
 
+@media(min-width:768px) {
     .timeline:before {
         left: 50%;
     }
@@ -408,7 +418,7 @@ header.background{
     -webkit-backface-visibility: hidden; /* prevent flash when embedding fiddle */
     display: inline-block;
     position: relative;
-    margin: 10px;
+    margin: 30px;
     overflow: hidden;
     background: #000;
     border-radius: 10px;
