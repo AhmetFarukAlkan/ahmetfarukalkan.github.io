@@ -259,12 +259,20 @@ header.background{
 
 @media (max-width: 768px) {
     .headPhoto img{
-        width: 250px;
+        width: 200px;
         height: auto;
     }
     .about .heading{
+        display: inline-block;
         font-size: 1.5rem;
         margin-right: 100px;
+    }
+    .headerContainer {
+        padding: 10vh;
+        padding-top: 20vh;
+    }
+    header.background {
+        height: 80vh;
     }
 }
 
